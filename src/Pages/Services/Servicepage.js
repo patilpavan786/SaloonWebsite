@@ -14,6 +14,7 @@ function Servicepage() {
   const [deatails, setDeatails] = useState("");
 
   let isUserLoggedIn = useRecoilValue(IsLogin);
+  
   useEffect(() => {
     let Data = PricingList?.find((x) => x.id === +id);
     console.log(Data);

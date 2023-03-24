@@ -39,6 +39,10 @@
     height:5rem
   
   }
+  .gridItem img:hover{
+    width: 5.1rem;
+    height:5.1rem
+  }
   .gridItem span{
     font-size: 1.4rem;
     margin: 0.5rem;
