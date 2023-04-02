@@ -6,6 +6,7 @@
     justify-content: space-between ;    
 }
 .Contact{
+  text-align: center;
   display: flex;
   justify-content:flex-start;
   flex-direction: column;

@@ -8,8 +8,7 @@ import { IsLogin } from "../../Recoil/Atom";
 import Style from "./Servicepage.module.css";
 function Servicepage() {
   const { id } = useParams();
-  console.log(typeof id);
-  console.log(PricingList);
+  
 
   const [deatails, setDeatails] = useState("");
 

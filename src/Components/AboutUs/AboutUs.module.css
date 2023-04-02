@@ -12,6 +12,7 @@
     display: flex;
     align-items: center;
     padding: 2rem;
+gap: 20rem;
     justify-content: space-between;
 }
 .AboutWrapper h2{
@@ -21,8 +22,15 @@
     font-family: 'Playfair Display', serif;
 }
 .Aboutimg img{
+    
+    width: 80%;
+    height: 80%;
         border-radius: 4rem;  
         
+}
+.Aboutimg img:hover{
+    width: 90%;
+    height: 90%;
 }
 ul {
     list-style: none;
@@ -65,6 +73,7 @@ margin: 0.6rem;
 @media screen and (max-width:1024px){
    
     .Aboutimg img{
+        
         width: 20rem;
         margin: 1rem;
         height:22rem;
@@ -74,6 +83,7 @@ margin: 0.6rem;
 @media screen and (max-width:768px){
     .AboutContainer{
         display: flex;
+        gap: unset;
         flex-direction: column;
     }
     .Aboutbtn{

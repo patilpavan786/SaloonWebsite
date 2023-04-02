@@ -42,3 +42,26 @@ export  const PricingList = [
       img: "https://t3.ftcdn.net/jpg/00/69/91/12/360_F_69911281_zETeItidaxkW5ryhGNqVynTD2O2Mt7yi.jpg",
     },
   ];
+
+  export const team = [
+    {
+      id: 1,
+      name: "Monty",
+      exper: "12 YEAR EXPERIENCE",
+      cover: "https://images.squarespace-cdn.com/content/v1/5fd787d32a8a4a2604b22b5d/1608433551527-N41CWLGJXHUMUH8BNH2N/MSBS_Barbers-63853.jpg",
+    },
+    {
+      id: 2,
+      name: "Markus",
+      exper: "09 YEAR EXPERIENCE",
+      cover: "https://images.squarespace-cdn.com/content/v1/5fd787d32a8a4a2604b22b5d/1608433000065-ZUVU4LXCNM8XAQAQSTFN/MSBS_Barbers-63879.jpg?format=1000w",
+    },
+    {
+      id: 3,
+      name: "Hina ",
+      exper: "06 YEAR EXPERIENCE",
+      cover: "https://images.squarespace-cdn.com/content/v1/5fd787d32a8a4a2604b22b5d/c4bb7a42-9ff7-49cf-9cf0-59537c764dc0/msbsloriheadshot-23000.jpg",
+    },
+  ]
+
+  

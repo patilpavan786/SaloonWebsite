@@ -21,12 +21,12 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 3rem;
+    gap: 4rem;
     font-size: 18px;
     font-weight: 500;
 }
 .login a:hover{
-    font-size: 20px;
+
     font-weight: 700;
     background-color: rgb(230, 96, 96);
     padding: 6px;
